@@ -28,7 +28,8 @@
         android:fontFamily="@font/fredericka_the_great"
         android:gravity="center"
         android:text="TextView"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:textSize="26sp"/>
 
     <TextView
         android:id="@+id/textView3"
@@ -52,6 +53,7 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_weight="1"
-        android:text="Button"
-        android:onClick="changebio"/>
+        android:text="Change Biography"
+        android:onClick="changebio"
+        android:fontFamily="@font/fredericka_the_great"/>
 </LinearLayout>
